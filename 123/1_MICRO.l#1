@@ -224,9 +224,9 @@
 <text x="-6.858" y="15.875" size="1.778" layer="95">&gt;NAME</text>
 <pin name="CSN" x="-12.7" y="12.7" length="middle" direction="in"/>
 <pin name="VIN" x="-12.7" y="7.62" length="middle" direction="in"/>
-<pin name="CE" x="-12.7" y="2.54" visible="pin" length="middle" direction="in"/>
-<pin name="STAT" x="-12.7" y="-2.54" visible="pin" length="middle" direction="out"/>
-<pin name="GND" x="0" y="-12.7" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="CE" x="-12.7" y="2.54" length="middle" direction="in"/>
+<pin name="STAT" x="-12.7" y="-2.54" length="middle" direction="out"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
 <pin name="HDRV" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="LDRV" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="BAT" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>

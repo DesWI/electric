@@ -124,7 +124,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" prefix="LED">
+<deviceset name="LED">
 <gates>
 <gate name="G$1" symbol="LED-A" x="0" y="0"/>
 </gates>
