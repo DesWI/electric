@@ -88,6 +88,8 @@
 <smd name="P$7" x="0.635" y="-2.65" dx="1" dy="0.6" layer="1" rot="R90"/>
 <smd name="P$8" x="1.864" y="-2.65" dx="1" dy="0.6" layer="1" rot="R90"/>
 <smd name="P$9" x="0" y="0.635" dx="4.25" dy="3.82" layer="1" rot="R270"/>
+<text x="-3.048" y="3.429" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SOP-8">
 <wire x1="-2.55" y1="2" x2="2.55" y2="2" width="0.1524" layer="21"/>
@@ -209,6 +211,23 @@
 <connect gate="G$1" pin="D" pad="P$1 P$2 P$3 P$4 P$9"/>
 <connect gate="G$1" pin="G" pad="P$8"/>
 <connect gate="G$1" pin="S" pad="P$5 P$6 P$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRAN_P">
+<gates>
+<gate name="G$1" symbol="P-MOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP-8">
+<connects>
+<connect gate="G$1" pin="D" pad="P$5 P$6 P$7 P$8"/>
+<connect gate="G$1" pin="G" pad="P$4"/>
+<connect gate="G$1" pin="S" pad="P$1 P$2 P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
