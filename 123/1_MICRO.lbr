@@ -230,7 +230,7 @@
 <pin name="HDRV" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="LDRV" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
 <pin name="BAT" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<text x="-2.032" y="-6.35" size="1.27" layer="97">GND</text>
+<text x="-1.524" y="-6.096" size="1.27" layer="95">GND</text>
 </symbol>
 </symbols>
 <devicesets>
