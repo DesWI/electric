@@ -627,7 +627,7 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 <part name="M1" library="1_TRANSISTOR (2)" deviceset="TRANSISTORN" device=""/>
 <part name="D3" library="1_LED" deviceset="LED" device=""/>
 <part name="D4" library="1_LED" deviceset="LED" device=""/>
-<part name="R3" library="1_RESISTOR" deviceset="RESISTOR" device="0603"/>
+<part name="R3" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="1.8"/>
 <part name="RCS" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="0.015"/>
 <part name="M2" library="1_TRANSISTOR (2)" deviceset="TRAN_P" device=""/>
 <part name="C2" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
