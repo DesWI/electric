@@ -619,7 +619,9 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 <part name="DD1" library="1_MICRO" deviceset="CN3302" device=""/>
 <part name="C1" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
 <part name="D1" library="1_DIOD" deviceset="B560C-13-F" device=""/>
-<part name="C0" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
+<part name="C0" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
 <part name="L1" library="1_NDUCTORS" deviceset="INDUCTOR" device=""/>
 <part name="D2" library="1_DIOD" deviceset="SS36C" device=""/>
 <part name="VT1" library="1_TRANSISTOR (2)" deviceset="TRANSISTORN" device=""/>
@@ -630,11 +632,17 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 <part name="C2" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
 <part name="C3" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
 <part name="C4" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
-<part name="C5" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
-<part name="C6" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
-<part name="C7" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF"/>
-<part name="R4" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="RESISTOR0603"/>
-<part name="R5" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="RESISTOR0603"/>
+<part name="C5" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
+<part name="C6" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
+<part name="C7" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
+<part name="R4" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="45"/>
+<part name="R5" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="45"/>
 <part name="R6" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="1.8"/>
 </parts>
 <sheets>

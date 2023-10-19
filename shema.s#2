@@ -641,8 +641,8 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 <part name="C7" library="1_RESISTOR" deviceset="CAPACITOR" device="" value="22uF">
 <attribute name="SPICEPREFIX" value="C"/>
 </part>
-<part name="R4" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="45"/>
-<part name="R5" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="45"/>
+<part name="R4" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="1.5 K"/>
+<part name="R5" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="1.5 K"/>
 <part name="R6" library="1_RESISTOR" deviceset="RESISTOR" device="0603" value="1.8"/>
 </parts>
 <sheets>
