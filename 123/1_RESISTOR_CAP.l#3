@@ -127,7 +127,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR" prefix="R">
+<deviceset name="RESISTOR">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>

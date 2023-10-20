@@ -152,7 +152,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR">
+<deviceset name="CAPACITOR" prefix="C">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
